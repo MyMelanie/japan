@@ -145,6 +145,8 @@ img {
 		height: 28px;
 		position: relative;
 	}
+}
+.burger {
 	&__line {
 		display: block;
 		width: 100%;
@@ -164,9 +166,8 @@ img {
 		&-third {
 			bottom: 0;
 		}
-	  }
+	}
 }
-  
 .intro {
     min-height: 100vh;
     background: url('../img/intro-bg.jpg') no-repeat center;
@@ -717,10 +718,10 @@ img {
 	.header__nav {
 		position: fixed;
 		width: 100%;
-		height: 100%;
+		height: 100vh;
 		top: 0;
 		left: 0;
-		background: #000;
+		background: #000000;
 		z-index: 10;
 		padding: 75px;
 		-webkit-transform: translateX(100%);
@@ -738,7 +739,7 @@ img {
 	.header__item {
 		width: 100%;
 		margin-right: 0;
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 	.header__item:last-child{
 		margin-bottom: 0;
@@ -753,7 +754,7 @@ img {
 		right: 20px;
 		width: 40px;
 		height: 40px;
-		z-index: 11;
+		z-index: 99;
 	}
 	.header__nav-close-line {
 		display: block;
